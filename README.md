@@ -164,6 +164,8 @@ docker run -d -v /var/run/docker.sock:/var/run/docker.sock \
 * `GRAPHITE_HOST` - host where carbon is listening for data.
 * `GRAPHITE_PORT` - port where carbon is listening for data, `2003` by default.
 * `GRAPHITE_PREFIX` - prefix for metrics in graphite, `collectd.` by default.
+* `INFLUXDB_HOST` - host where carbon is listening for data.
+* `INFLUXDB_PORT` - port where carbon is listening for data, `2003` by default.
 * `APP_LABEL_KEY` - container label to use for app name, `collectd_docker_app` by default.
 * `APP_ENV_KEY` - container environment variable to use for app name, `COLLECTD_DOCKER_APP` by default.
 * `TASK_LABEL_KEY` - container label to use for task name, `collectd_docker_task` by default.
