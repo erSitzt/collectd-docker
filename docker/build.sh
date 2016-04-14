@@ -6,7 +6,7 @@ echo "APT::AutoRemove::RecommendsImportant false;" >> /etc/apt/apt.conf.d/recomm
 echo "APT::AutoRemove::SuggestsImportant   false;" >> /etc/apt/apt.conf.d/recommends.conf
 
 apt-get update
-apt-get install -y collectd collectd-network git curl ca-certificates && \
+apt-get install -y collectd git curl ca-certificates && \
 
 export GOLANG_VERSION="1.6"
 export GOLANG_DOWNLOAD_URL="https://golang.org/dl/go${GOLANG_VERSION}.linux-amd64.tar.gz"
